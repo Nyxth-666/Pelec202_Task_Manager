@@ -40,7 +40,7 @@ export default function App() {
               key={char.id}
               src={char.url}
               alt={`Character ${char.id}`}
-              className="w-30 h-30 object-cover"
+              className="w-60 h-60 object-cover"
             />
           ))}
         </div>
@@ -51,7 +51,7 @@ export default function App() {
               key={char.id}
               src={char.url}
               alt={`Character ${char.id}`}
-              className="w-30 h-30 object-cover"
+              className="w-60 h-60 object-cover"
             />
           ))}
         </div>
